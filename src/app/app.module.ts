@@ -7,7 +7,7 @@ import { PostsModule } from './page/posts/posts.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
