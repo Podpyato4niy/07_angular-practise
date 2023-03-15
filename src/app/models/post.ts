@@ -1,7 +1,7 @@
 import { IPost } from '../interfaces/post';
 
 export class Post implements IPost {
-   public readonly id!: string;
+   public readonly id!: number;
    public userId!: number;
    public title!: string;
    public body!: string;

@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PostsModule } from './pages/posts/posts.module';
 import { HeaderModule } from './components/header/header.module';
 import { MainModule } from './components/main/main.module';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -14,9 +14,9 @@ import { MainModule } from './components/main/main.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PostsModule,
     HeaderModule,
-    MainModule
+    MainModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
