@@ -1,6 +1,6 @@
-import { IComment } from "../interfaces/icomment";
+import { IComment } from "../interfaces/comment";
 
-export class CommentClass implements IComment {
+export class Comment implements IComment {
     readonly id!: string;
     name!: string;
     postId!: number;

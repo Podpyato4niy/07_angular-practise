@@ -1,4 +1,4 @@
-import { IPost } from '../interfaces/ipost';
+import { IPost } from '../interfaces/post';
 
 export class Post implements IPost {
    public readonly id!: string;
