@@ -6,7 +6,7 @@ export class CommentClass implements IComment {
     postId!: number;
     email!: string;
     body!: string;
-    constructor(obj: IComment){
+    constructor(){
         
     }
 }
