@@ -1,3 +1,6 @@
-export interface Post {
-    
+export interface IPost {
+    readonly id: string;
+    userId: number;
+    title: string;
+    body: string;
 }
